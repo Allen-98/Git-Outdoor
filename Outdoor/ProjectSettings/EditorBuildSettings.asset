@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Outdoor Scene.unity
+    guid: 0dfa3f19b71c2a348b0f63ac55d9a81b
   m_configObjects: {}
