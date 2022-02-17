@@ -605,7 +605,7 @@ PlayerSettings:
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
     1: STARTER_ASSETS_PACKAGES_CHECKED
-    4: STARTER_ASSETS_PACKAGES_CHECKED
+    4: STARTER_ASSETS_PACKAGES_CHECKED;USING_UNISTORM
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
