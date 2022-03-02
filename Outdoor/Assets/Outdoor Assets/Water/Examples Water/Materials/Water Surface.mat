@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _AlbedoTex2:
-        m_Texture: {fileID: 2800000, guid: 21cbc816b57948b196ced72a3c33a909, type: 3}
+        m_Texture: {fileID: 2800000, guid: 596b33ebc0887e74f8a8eb312c28ca7e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -134,8 +134,8 @@ Material:
     m_Floats:
     - _Albedo2Flow: 0.9
     - _Albedo2Tiling: 0.9
-    - _AlbedoContrast: 0.07
-    - _AlbedoIntensity: 1.28
+    - _AlbedoContrast: -0.15
+    - _AlbedoIntensity: 0.78
     - _Brightness: 1
     - _BumpScale: 1
     - _Contrast: 1
@@ -161,7 +161,7 @@ Material:
     - _FoamScale: 0.1
     - _GlossAmount: 0.03
     - _GlossMapScale: 1
-    - _Glossiness: 0.814
+    - _Glossiness: 0.706
     - _GlossyReflections: 1
     - _Intensity: 2
     - _IntensityMicrowave: 0.68
@@ -172,7 +172,7 @@ Material:
     - _InvFade: 0
     - _MainDetailFlow: 1
     - _MainDetailScale: 1
-    - _Metallic: 1.15
+    - _Metallic: 1.26
     - _MicrowaveScale: 1
     - _MicrowaveStrength: 0.91
     - _MinuteDetailIntensity: 1.455
@@ -216,7 +216,7 @@ Material:
     - _Saturation: 1
     - _Shininess: 0.157
     - _SmoothnessTextureChannel: 0
-    - _SoftFactor: 0.246
+    - _SoftFactor: 0.579
     - _SpecularHighlights: 1
     - _Speed: 0.5
     - _SpeedX: 0.1
