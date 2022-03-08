@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public bool controlling;
     public GameObject panel;
     public Material summer;
     public Material winter;
+    public Text csbText;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        controlling = false;
+        csbText.text = "Rest";
     }
 
     // Update is called once per frame
@@ -42,6 +46,22 @@ public class GameManager : MonoBehaviour
         {
             RenderSettings.skybox = summer;
         }
+
+    }
+
+    public void ControlSwitch()
+    {
+        if (!controlling)
+        {
+            controlling = true;
+            csbText.text = "Moving";
+        }
+        else
+        {
+            controlling = false;
+            csbText.text = "Rest";
+        }
+
 
     }
 
