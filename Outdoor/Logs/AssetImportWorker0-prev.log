@@ -1,69 +1,30 @@
-Unity Editor version:    2020.3.25f1c1 (fd09ccef852e)
-Branch:                  2020.3/china_unity/release
-Build type:              Release
-Batch mode:              YES
-macOS version:           Version 12.1 (Build 21C52)
-Darwin version:          21.2.0
-Architecture:            x86_64
-Running under Rosetta:   YES
-Available memory:        16384 MB
 Using pre-set license
-Pro License: NO
+Built from '2020.3/china_unity/release' branch; Version is '2020.3.24f1c2 (f3616f7ef48a) revision 15950191'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'zh' Physical Memory: 32176 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-/Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/MacOS/Unity
+C:\Program Files\Unity\Hub\Editor\2020.3.24f1c2\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-/Users/allen/Projects/Git-Outdoor/Outdoor
+C:/1-Study/Unity Projects/Git-Outdoor/Outdoor
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< Updated upstream
-53726
-Successfully changed project path to: /Users/allen/Projects/Git-Outdoor/Outdoor
-/Users/allen/Projects/Git-Outdoor/Outdoor
-Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 40.55 ms, found 2 plugins.
-=======
-59832
+53776
 Successfully changed project path to: C:/1-Study/Unity Projects/Git-Outdoor/Outdoor
 C:/1-Study/Unity Projects/Git-Outdoor/Outdoor
 Using Asset Import Pipeline V2.
-AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 163.50 ms, found 3 plugins.
->>>>>>> Stashed changes
+AS: AutoStreaming module initializing.Refreshing native plugins compatible for Editor in 37.13 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2020.3.25f1c1 (fd09ccef852e)
-[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/allen/Projects/Git-Outdoor/Outdoor/Assets
+Initialize engine version: 2020.3.24f1c2 (f3616f7ef48a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/1-Study/Unity Projects/Git-Outdoor/Outdoor/Assets
 GfxDevice: creating device client; threaded=0
-<<<<<<< Updated upstream
-2022-03-09 09:36:45.884 Unity[47523:5645752] (null) preferred device: Apple M1 Pro (high power)
-2022-03-09 09:36:45.884 Unity[47523:5645752] Metal devices available: 1
-2022-03-09 09:36:45.884 Unity[47523:5645752] 0: Apple M1 Pro (high power)
-2022-03-09 09:36:45.884 Unity[47523:5645752] Using device Apple M1 Pro (high power)
-Initializing Metal device caps: Apple M1 Pro
-Initialize mono
-Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/Managed'
-Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = '/Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56523
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: /Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000371 seconds.
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 41.41 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.266 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1267ms)
-		BeginReloadAssembly (85ms)
-=======
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: NVIDIA GeForce RTX 3070 Laptop GPU (ID=0x249d)
@@ -75,235 +36,93 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56412
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.24f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001439 seconds.
+Registered in 0.001747 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.95 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.580 seconds
+- Completed reload, in  0.411 seconds
 Domain Reload Profiling:
-	ReloadAssembly (581ms)
-		BeginReloadAssembly (37ms)
->>>>>>> Stashed changes
+	ReloadAssembly (411ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< Updated upstream
-			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1068ms)
-			LoadAssemblies (82ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (175ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (560ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (315ms)
-				ProcessInitializeOnLoadMethodAttributes (107ms)
-=======
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (418ms)
+		EndReloadAssembly (321ms)
 			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (178ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (138ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (128ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
-				BeforeProcessingInitializeOnLoad (14ms)
-				ProcessInitializeOnLoadAttributes (59ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
->>>>>>> Stashed changes
+				RefreshPlugins (35ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (56ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-<<<<<<< Updated upstream
-Registered in 0.001293 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 41.08 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.369 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2370ms)
-		BeginReloadAssembly (261ms)
-=======
-Registered in 0.107765 seconds.
+Registered in 0.003552 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.10 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.14 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.863 seconds
+- Completed reload, in  0.828 seconds
 Domain Reload Profiling:
-	ReloadAssembly (864ms)
-		BeginReloadAssembly (99ms)
->>>>>>> Stashed changes
+	ReloadAssembly (829ms)
+		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (34ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< Updated upstream
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (2017ms)
-			LoadAssemblies (193ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (346ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (1124ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (41ms)
-				BeforeProcessingInitializeOnLoad (167ms)
-				ProcessInitializeOnLoadAttributes (875ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (32ms)
-Platform modules already initialized, skipping
-Validating Project structure ... 0.005587 seconds.
-
-LICENSE SYSTEM [202239 9:36:49] Next license update check is after 2022-03-10T01:34:46
-
-Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.032285 seconds.
-Application.AssetDatabase Initial Script Refresh Start
-RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
-RefreshProfiler: Total: 0.000ms
-Application.AssetDatabase Initial Script Refresh End
-Application.AssetDatabase.Refresh Start
-Application.AssetDatabase.Refresh End
-RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
-RefreshProfiler: Total: 0.000ms
-Launching external process: /Applications/Unity/Hub/Editor/2020.3.25f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Initializing Unity extensions:
-2022-03-09 09:36:52.389 Unity[47523:5645752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003443bf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-03-09 09:36:52.392 Unity[47523:5645752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000342eb50 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-========================================================================
-Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2184 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.0 MB.
-System memory in use after: 216.8 MB.
-
-Unloading 193 unused Assets to reduce memory usage. Loaded Objects now: 2657.
-Total: 2.763667 ms (FindLiveObjects: 0.104458 ms CreateObjectMapping: 0.043708 ms MarkObjects: 2.081750 ms  DeleteObjects: 0.532958 ms)
-=======
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (722ms)
-			LoadAssemblies (68ms)
+		EndReloadAssembly (691ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (201ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (338ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (234ms)
+				RefreshPlugins (33ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (189ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 140.2 MB.
-System memory in use after: 140.2 MB.
+System memory in use before: 140.3 MB.
+System memory in use after: 140.3 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2687.
-Total: 3.087200 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.681900 ms  DeleteObjects: 0.124400 ms)
->>>>>>> Stashed changes
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-<<<<<<< Updated upstream
-  path: Assets/Import Assets/WaveformProvider/readme_en.txt
-  artifactKey: Guid(c6d2da548d19ae047a5be46ccf82260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import Assets/WaveformProvider/readme_en.txt using Guid(c6d2da548d19ae047a5be46ccf82260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe552585003a380604589983f443bd2e') in 0.805306 seconds 
-  Import took 0.810225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.454144 seconds.
-  path: Assets/Import Assets/WaveformProvider/readme_jp.txt
-  artifactKey: Guid(9c661fdaa5cedd048a4f026d06a39283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import Assets/WaveformProvider/readme_jp.txt using Guid(9c661fdaa5cedd048a4f026d06a39283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520d37e5eb089e4a9397dd1ecc904a18') in 0.003054 seconds 
-  Import took 0.006300 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002936 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-09 09:41:23.027 Unity[47523:5645752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003434ee0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.307 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2309ms)
-		BeginReloadAssembly (222ms)
-=======
-  path: Assets/Import Assets/Water 1/Example Scenes/PostProcessing/Resources/Shaders/EyeHistogram.compute
-  artifactKey: Guid(7a579569b6304a089413874406f62ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import Assets/Water 1/Example Scenes/PostProcessing/Resources/Shaders/EyeHistogram.compute using Guid(7a579569b6304a089413874406f62ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f92e641c3d1457c7c6946e839bac324') in 0.064098 seconds 
-  Import took 0.067175 seconds .
-
-========================================================================
-Received Prepare
-Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Refreshing native plugins compatible for Editor in 3.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 19 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.7 MB.
-System memory in use after: 92.7 MB.
-
-Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2687.
-Total: 4.443900 ms (FindLiveObjects: 0.224200 ms CreateObjectMapping: 0.095700 ms MarkObjects: 4.002000 ms  DeleteObjects: 0.121000 ms)
+Total: 2.750700 ms (FindLiveObjects: 0.193900 ms CreateObjectMapping: 0.091500 ms MarkObjects: 2.350800 ms  DeleteObjects: 0.113500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -317,139 +136,202 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  path: Assets/Import Assets/WaveformProvider
+  artifactKey: Guid(a8452f8e6e4644537bf2d086fe48e093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider using Guid(a8452f8e6e4644537bf2d086fe48e093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7e5e251124ed4c3354d2899fc518364') in 0.008355 seconds 
+  Import took 0.011235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Scene/Sample01 -GetWaveNormal-.unity
+  artifactKey: Guid(5e6c4b00c8747804fbac72fde53fc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Scene/Sample01 -GetWaveNormal-.unity using Guid(5e6c4b00c8747804fbac72fde53fc9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12d1bc523f25e57b87878e2767a3dfc') in 0.013709 seconds 
+  Import took 0.016164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/grid.fbx
+  artifactKey: Guid(05fe894722be9e54aa8dd928aabedb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/grid.fbx using Guid(05fe894722be9e54aa8dd928aabedb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf62018416dbf967f65bfc2bf9b6c80') in 0.116196 seconds 
+  Import took 0.118727 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample
+  artifactKey: Guid(503c27c1680c0bd4c9281297929b0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample using Guid(503c27c1680c0bd4c9281297929b0574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe561d63d3a38999298799745c265031') in 0.005790 seconds 
+  Import took 0.008324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Bound.physicMaterial
+  artifactKey: Guid(bf3bff8f7d6252d47bfd99e6df11c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Bound.physicMaterial using Guid(bf3bff8f7d6252d47bfd99e6df11c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43ef5f82dce5295a892c08539c053d11') in 0.008802 seconds 
+  Import took 0.011935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Scene
+  artifactKey: Guid(77d1444a34ed971498ec75079bf29305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Scene using Guid(77d1444a34ed971498ec75079bf29305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f4b84352c57f19357c7d01dda29b72a') in 0.006776 seconds 
+  Import took 0.009600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.711697 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Scene/Sample02 -GetWaveHeight-.unity
+  artifactKey: Guid(4e4fad480f6ea994bb55c0bee7cd4861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Scene/Sample02 -GetWaveHeight-.unity using Guid(4e4fad480f6ea994bb55c0bee7cd4861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c260365e93e2dde93443c0ffd6a336') in 0.006476 seconds 
+  Import took 0.009534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.918646 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Scene/Sample03 -GrabDistortion-.unity
+  artifactKey: Guid(55964a27d685a004ea9fc69345532428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Scene/Sample03 -GrabDistortion-.unity using Guid(55964a27d685a004ea9fc69345532428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd311926fdcb43af5530ee88b7bc1ca3') in 0.006910 seconds 
+  Import took 0.010124 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.829271 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Scene/Sample04 -WaterSurface-.unity
+  artifactKey: Guid(b096041a1507b6245a45546af261a5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Scene/Sample04 -WaterSurface-.unity using Guid(b096041a1507b6245a45546af261a5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41ed34943d36c4add257a9ce77c86d6e') in 0.006111 seconds 
+  Import took 0.009161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.296751 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Shader
+  artifactKey: Guid(b9ffe82399b6e04438e5a07d9b5cbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Shader using Guid(b9ffe82399b6e04438e5a07d9b5cbff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9399b5ae911b7fed20b00d3a3d022675') in 0.006027 seconds 
+  Import took 0.009140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.070243 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Material
+  artifactKey: Guid(4153f386969fc1647bea4fdde26e22e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Material using Guid(4153f386969fc1647bea4fdde26e22e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fa3179fd6c6b1faacfce1f4de0c13f') in 0.006124 seconds 
+  Import took 0.009182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072067 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Material/GrabDistortion.mat
+  artifactKey: Guid(a77bf7679d6b87c428b90fe1261ee7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Material/GrabDistortion.mat using Guid(a77bf7679d6b87c428b90fe1261ee7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Es/WaveformProvider/Sample/GrabDistortion': Couldn't open include file 'Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc'. at line 23
+
+Compiling Vertex program
+Platform defines: UNITY_COLORSPACE_GAMMA UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+Shader error in 'Es/WaveformProvider/Sample/GrabDistortion': Couldn't open include file 'Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc'. at line 23
+
+Compiling Vertex program
+Platform defines: UNITY_COLORSPACE_GAMMA UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: '0c32652e8b07f6f9782e4553b360ca65') in 0.028991 seconds 
+  Import took 0.032235 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Material/WaveNormal.mat
+  artifactKey: Guid(914e516c2ef64ba42a6bbe67de7ec91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Material/WaveNormal.mat using Guid(914e516c2ef64ba42a6bbe67de7ec91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Es/WaveformProvider/Sample/WaveNormal': Couldn't open include file 'Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc'. at line 18
+
+Compiling Vertex program
+Platform defines: UNITY_COLORSPACE_GAMMA UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+Shader error in 'Es/WaveformProvider/Sample/WaveNormal': Couldn't open include file 'Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc'. at line 18
+
+Compiling Vertex program
+Platform defines: UNITY_COLORSPACE_GAMMA UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: 'd91bab4155fd4f66026814975b14bc49') in 0.014938 seconds 
+  Import took 0.017569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Material/WaveHeight.mat
+  artifactKey: Guid(23c4bd8049a82104797487a88384ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Material/WaveHeight.mat using Guid(23c4bd8049a82104797487a88384ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader error in 'Es/WaveformProvider/Sample/WaveHeight': Couldn't open include file 'Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc'. at line 18
+
+Compiling Vertex program
+Platform defines: UNITY_COLORSPACE_GAMMA UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+Shader error in 'Es/WaveformProvider/Sample/WaveHeight': Couldn't open include file 'Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc'. at line 18
+
+Compiling Vertex program
+Platform defines: UNITY_COLORSPACE_GAMMA UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_NO_DXT5nm UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF2
+Disabled keywords: SHADER_API_GLES30 UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHTMAP_RGBM_ENCODING UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING
+ -> (artifact id: '65d51b445176b4cc95c19f3a1c42bd58') in 0.015757 seconds 
+  Import took 0.018409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.779157 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Texture/WaveNormal.png
+  artifactKey: Guid(98ce751274698804eb54dd90dab2ecab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Texture/WaveNormal.png using Guid(98ce751274698804eb54dd90dab2ecab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b2c51999f73f1db84c7fc03e6928ba0') in 0.023648 seconds 
+  Import took 0.027060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Import Assets/WaveformProvider/Sample/Texture/Wave.renderTexture
+  artifactKey: Guid(806edd5993c86e94c881c4ccdc7d71f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/Sample/Texture/Wave.renderTexture using Guid(806edd5993c86e94c881c4ccdc7d71f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb10da1c19c8785061bd36e816d7a37a') in 0.012277 seconds 
+  Import took 0.015699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.354859 seconds.
+  path: Assets/Import Assets/WaveformProvider/readme_en.txt
+  artifactKey: Guid(c6d2da548d19ae047a5be46ccf82260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/WaveformProvider/readme_en.txt using Guid(c6d2da548d19ae047a5be46ccf82260a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ff481c28e01c38f3d19f1629ed9920') in 0.009543 seconds 
+  Import took 0.012859 seconds .
+
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004561 seconds.
+Registered in 0.003318 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
+- Completed reload, in  0.757 seconds
 Domain Reload Profiling:
-	ReloadAssembly (720ms)
-		BeginReloadAssembly (88ms)
->>>>>>> Stashed changes
+	ReloadAssembly (758ms)
+		BeginReloadAssembly (101ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-<<<<<<< Updated upstream
-			CreateAndSetChildDomain (77ms)
-		EndReloadAssembly (1997ms)
-			LoadAssemblies (193ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (335ms)
+			SetupTypeCache (200ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (1146ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (242ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (227ms)
-				ProcessInitializeOnLoadAttributes (879ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (33ms)
-Platform modules already initialized, skipping
-Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2166 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.6 MB.
-System memory in use after: 217.8 MB.
-
-Unloading 37 unused Assets to reduce memory usage. Loaded Objects now: 2677.
-Total: 2.682666 ms (FindLiveObjects: 0.082416 ms CreateObjectMapping: 0.041709 ms MarkObjects: 2.059708 ms  DeleteObjects: 0.497959 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 353.468665 seconds.
-  path: Assets/InkPainter
-  artifactKey: Guid(b17219a39696d4c9eadb9da9711cfb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/InkPainter using Guid(b17219a39696d4c9eadb9da9711cfb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e114d32001466696ee896881d7eb1438') in 0.005695 seconds 
-  Import took 0.008691 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002846 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-2022-03-09 09:43:25.075 Unity[47523:5645752] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003436300 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-Mono: successfully reloaded assembly
-- Completed reload, in  2.383 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2384ms)
-		BeginReloadAssembly (210ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (33ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (2080ms)
-			LoadAssemblies (190ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (354ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (1190ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (247ms)
-				ProcessInitializeOnLoadAttributes (903ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (34ms)
-Platform modules already initialized, skipping
-Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2166 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 218.8 MB.
-System memory in use after: 218.0 MB.
-
-Unloading 36 unused Assets to reduce memory usage. Loaded Objects now: 2679.
-Total: 2.857541 ms (FindLiveObjects: 0.094292 ms CreateObjectMapping: 0.044000 ms MarkObjects: 2.151500 ms  DeleteObjects: 0.566625 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-=======
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (589ms)
-			LoadAssemblies (59ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (194ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (234ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (170ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (174ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
@@ -458,41 +340,242 @@ AssetImportParameters requested are different than current active one (requested
 Platform modules already initialized, skipping
 Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
 Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2156 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 132.2 MB.
-System memory in use after: 132.3 MB.
+System memory in use before: 135.9 MB.
+System memory in use after: 136.0 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2689.
-Total: 2.963100 ms (FindLiveObjects: 0.207200 ms CreateObjectMapping: 0.089000 ms MarkObjects: 2.575900 ms  DeleteObjects: 0.090300 ms)
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2736.
+Total: 3.129900 ms (FindLiveObjects: 0.263500 ms CreateObjectMapping: 0.114100 ms MarkObjects: 2.649200 ms  DeleteObjects: 0.102200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
->>>>>>> Stashed changes
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-<<<<<<< Updated upstream
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 16.233533 seconds.
-  path: Assets/Import Assets/Water 1/Example Scenes/PostProcessing/Resources/Shaders/EyeHistogram.compute
-  artifactKey: Guid(7a579569b6304a089413874406f62ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import Assets/Water 1/Example Scenes/PostProcessing/Resources/Shaders/EyeHistogram.compute using Guid(7a579569b6304a089413874406f62ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a65315ff3bd782631ea22080d53c269') in 0.452140 seconds 
-  Import took 0.456614 seconds .
-
-=======
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
->>>>>>> Stashed changes
+========================================================================
+Received Import Request.
+  Time since last request: 188.172074 seconds.
+  path: Assets/Scenes/Outdoor Scene.unity
+  artifactKey: Guid(51af1aba5cab7cd4e9d7578b3ce97f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Outdoor Scene.unity using Guid(51af1aba5cab7cd4e9d7578b3ce97f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c22fe3e6f2311fc13a42d6f18124a73') in 0.027615 seconds 
+  Import took 0.031012 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.154907 seconds.
+  path: Assets/WaveformProvider/Shader
+  artifactKey: Guid(b8100f9306175e74593f279a2dff7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Shader using Guid(b8100f9306175e74593f279a2dff7d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '000133362ff0522cec2264a5049be2c7') in 0.002399 seconds 
+  Import took 0.005843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.326279 seconds.
+  path: Assets/WaveformProvider/Script
+  artifactKey: Guid(f6c12cab35b0fdc45926c0231a413f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Script using Guid(f6c12cab35b0fdc45926c0231a413f75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a13e98595012ffb9f58455dc6a73d313') in 0.006390 seconds 
+  Import took 0.009557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.611067 seconds.
+  path: Assets/WaveformProvider/Script/WaveConductor.cs
+  artifactKey: Guid(51c61ca29ce57bb42881d57b23d3593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Script/WaveConductor.cs using Guid(51c61ca29ce57bb42881d57b23d3593e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488cbe3486ba8cdb3b1b548dc280b65b') in 0.008533 seconds 
+  Import took 0.011686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.373077 seconds.
+  path: Assets/WaveformProvider/Resources
+  artifactKey: Guid(502be8bb7a815f748bc73d93b358cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Resources using Guid(502be8bb7a815f748bc73d93b358cba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066f48999a2c75070e1318c39a5c7105') in 0.007411 seconds 
+  Import took 0.010522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.061399 seconds.
+  path: Assets/WaveformProvider/Resources/Es.WaveformProvider.WaveInput.mat
+  artifactKey: Guid(100fa6325bf41fd419941f544f83f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Resources/Es.WaveformProvider.WaveInput.mat using Guid(100fa6325bf41fd419941f544f83f240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1612184dc3f5fb075d38d77cd21c21') in 0.086375 seconds 
+  Import took 0.089829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/WaveformProvider/Resources/Es.WaveformProvider.WaveProvide.mat
+  artifactKey: Guid(09726743db8b6b040a50442399e778d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Resources/Es.WaveformProvider.WaveProvide.mat using Guid(09726743db8b6b040a50442399e778d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cf3d8264bc074d86bd0ed72d0d47b3') in 0.033337 seconds 
+  Import took 0.036457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.407877 seconds.
+  path: Assets/WaveformProvider/Shader/Lib
+  artifactKey: Guid(3306ff7e1932ccb4ca89094f8f51a60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Shader/Lib using Guid(3306ff7e1932ccb4ca89094f8f51a60f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436a50183d469cbd1c0779cefc1fd6da') in 0.006004 seconds 
+  Import took 0.009258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.033806 seconds.
+  path: Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc
+  artifactKey: Guid(103fa71ac83e5724ba333629b924ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Shader/Lib/WaveUtil.cginc using Guid(103fa71ac83e5724ba333629b924ead9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2f94e7ea211068a8a646752c1e042f') in 0.007785 seconds 
+  Import took 0.010952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.179178 seconds.
+  path: Assets/WaveformProvider/Shader/Wave.shader
+  artifactKey: Guid(06e3011127bbe4f469fd2e0209805d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WaveformProvider/Shader/Wave.shader using Guid(06e3011127bbe4f469fd2e0209805d64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e94aaa6aa9ce4d347c14227343e845') in 0.003816 seconds 
+  Import took 0.006805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.282656 seconds.
+  path: Assets/Import Assets/InkPainter
+  artifactKey: Guid(b17219a39696d4c9eadb9da9711cfb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/InkPainter using Guid(b17219a39696d4c9eadb9da9711cfb45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148ba7b5a6b3ae9c9ae7b4f4e83d4aa7') in 0.006583 seconds 
+  Import took 0.009668 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.005573 seconds.
+  path: Assets/Import Assets/InkPainter/readme_en.txt
+  artifactKey: Guid(75231170b7a46cc4fb14ad7a9d193a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import Assets/InkPainter/readme_en.txt using Guid(75231170b7a46cc4fb14ad7a9d193a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed85b8705da54b86b3266561fe03f516') in 0.002838 seconds 
+  Import took 0.006085 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003303 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.774 seconds
+Domain Reload Profiling:
+	ReloadAssembly (774ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (242ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (53ms)
+				ProcessInitializeOnLoadAttributes (175ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2146 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.2 MB.
+System memory in use after: 135.4 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2733.
+Total: 2.639800 ms (FindLiveObjects: 0.226200 ms CreateObjectMapping: 0.051900 ms MarkObjects: 2.342300 ms  DeleteObjects: 0.018700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003244 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (747ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (605ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (235ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (51ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(9) subTarget(16777218) extendedPlatform(0)
+Shader 'Es/Sample/TessellateHeightTransform': fallback shader 'Custom/VTFHeightTransform' not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.8 MB.
+System memory in use after: 135.1 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2719.
+Total: 2.651900 ms (FindLiveObjects: 0.201200 ms CreateObjectMapping: 0.055900 ms MarkObjects: 2.372300 ms  DeleteObjects: 0.021800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

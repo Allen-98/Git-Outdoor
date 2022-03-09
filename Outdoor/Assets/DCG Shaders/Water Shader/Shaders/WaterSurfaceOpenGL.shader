@@ -502,5 +502,8 @@ Shader "DCG/Water Shader/Water Surface OpenGL" {
         }
     }
     FallBack "Diffuse"
-    CustomEditor "ShaderForgeMaterialInspector"
+    //CustomEditor "ShaderForgeMaterialInspector"
+
+
+
 }
