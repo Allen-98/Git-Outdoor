@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     public Material summer;
     public Material winter;
     public Text csbText;
+    public GameObject rain;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void SeasonChange()
     {
-        if (RenderSettings.skybox = summer)
+        if (RenderSettings.skybox == summer)
         {
             RenderSettings.skybox = winter;
         }
@@ -64,5 +65,18 @@ public class GameManager : MonoBehaviour
 
 
     }
+
+    public void Rain()
+    {
+        if (!rain.activeSelf)
+        {
+            rain.SetActive(true);
+        }
+        else
+        {
+            rain.SetActive(false);
+        }
+    }
+
 
 }
