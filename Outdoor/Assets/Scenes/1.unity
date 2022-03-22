@@ -20,11 +20,11 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 50
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 0
+  m_AmbientMode: 1
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 2a3816967a31f5548a8f7aa293e11f02, type: 2}
   m_HaloStrength: 0.5
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 686773287}
-  m_IndirectSpecularColor: {r: 0.28424138, g: 0.32170975, b: 0.33760932, a: 1}
+  m_IndirectSpecularColor: {r: 0.2677618, g: 0.30316553, b: 0.3179259, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5143,6 +5143,10 @@ PrefabInstance:
     - target: {fileID: 8844615405612695259, guid: adefba1504edc4055a7d9e131bad3064, type: 3}
       propertyPath: m_Name
       value: Reporter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8844615405612695259, guid: adefba1504edc4055a7d9e131bad3064, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: adefba1504edc4055a7d9e131bad3064, type: 3}
@@ -15568,7 +15572,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 686773286}
   m_LocalRotation: {x: 0.24445932, y: -0.06549108, z: 0.023717428, w: 0.9671546}
-  m_LocalPosition: {x: 42.5, y: 50, z: -92.2}
+  m_LocalPosition: {x: 63.9, y: 50, z: -76.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -31032,6 +31036,7 @@ MonoBehaviour:
   snowGround: {fileID: 2100000, guid: 0f1176d6c4233734980ba48bbd149cd0, type: 2}
   grassGround: {fileID: 2100000, guid: 490f36853fc866f4ead3ab33c05e3492, type: 2}
   light: {fileID: 686773286}
+  lf: {fileID: 686773289}
 --- !u!4 &1183469573
 Transform:
   m_ObjectHideFlags: 0
@@ -32073,7 +32078,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1363627673
 GameObject:
@@ -32317,7 +32322,7 @@ Transform:
   - {fileID: 5682931859466935686}
   - {fileID: 1104000070}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1502388517
 GameObject:
@@ -38115,15 +38120,15 @@ MonoBehaviour:
   m_3D_ScaleRatio: 1
   isOpenFloorMatEdit: 0
   originPos: {fileID: 2112319205}
-  rotateSpeed: 0.1
-  moveSpeed: 0.01
-  zoomSpeed: 0.05
+  rotateSpeed: 0.2
+  moveSpeed: 0.05
+  zoomSpeed: 0.1
   rotateSlider: {fileID: 7040245739103260915}
   moveSlider: {fileID: 7040245738729477286}
   zoomSlider: {fileID: 7040245739170555480}
-  rotateSpeedText: {fileID: 7040245738841225463}
-  moveSpeedText: {fileID: 7040245738859028667}
-  zoomSpeedText: {fileID: 7040245738238871194}
+  rotateSpeedText: {fileID: 7040245738474560883}
+  moveSpeedText: {fileID: 7040245738026694480}
+  zoomSpeedText: {fileID: 7040245738545086452}
 --- !u!54 &2127446301
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -49089,7 +49094,7 @@ RectTransform:
   - {fileID: 1363627674}
   - {fileID: 959970265}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -50163,13 +50168,13 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7040245739382282607}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 0.01
+  m_MaxValue: 0.02
   m_WholeNumbers: 0
   m_Value: 0.01
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2124352290}
         m_TargetAssemblyTypeName: GestureControllerSimple, Assembly-CSharp
         m_MethodName: MoveSpeedChange
         m_Mode: 1
@@ -50881,13 +50886,13 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7040245738962303915}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 0.1
+  m_MaxValue: 0.2
   m_WholeNumbers: 0
   m_Value: 0.1
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2124352290}
         m_TargetAssemblyTypeName: GestureControllerSimple, Assembly-CSharp
         m_MethodName: RotateSpeedChange
         m_Mode: 1
@@ -50944,13 +50949,13 @@ MonoBehaviour:
   m_HandleRect: {fileID: 7040245737930593640}
   m_Direction: 0
   m_MinValue: 0
-  m_MaxValue: 0.05
+  m_MaxValue: 0.1
   m_WholeNumbers: 0
   m_Value: 0.05
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2124352290}
         m_TargetAssemblyTypeName: GestureControllerSimple, Assembly-CSharp
         m_MethodName: ZoomSpeedChange
         m_Mode: 1

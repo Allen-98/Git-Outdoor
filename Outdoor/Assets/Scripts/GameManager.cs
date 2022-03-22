@@ -18,12 +18,14 @@ public class GameManager : MonoBehaviour
     public Material snowGround;
     public Material grassGround;
     public GameObject light;
+    public LensFlare lf;
 
     // Start is called before the first frame update
     void Start()
     {
         controlling = false;
         csbText.text = "Rest";
+
     }
 
     // Update is called once per frame
@@ -32,10 +34,14 @@ public class GameManager : MonoBehaviour
         if (rain.activeSelf || fog.activeSelf || snow.activeSelf)
         {
             light.transform.localRotation = Quaternion.Euler(new Vector3(200, 90, 90));
+            summer.SetFloat("_Exposure", 0.25f);
+            lf.enabled = false;
         }
         else
         {
             light.transform.localRotation = Quaternion.Euler(new Vector3(90, 90, 90));
+            summer.SetFloat("_Exposure", 0.5f);
+            lf.enabled = true;
 
         }
     }

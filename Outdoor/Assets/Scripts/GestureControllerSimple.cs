@@ -34,9 +34,9 @@ public class GestureControllerSimple : MonoBehaviour, IPointerClickHandler
 
     public Transform originPos;
 
-    public float rotateSpeed=0.1f;
-    public float moveSpeed=0.01f;
-    public float zoomSpeed=0.05f;
+    public float rotateSpeed=0.2f;
+    public float moveSpeed=0.05f;
+    public float zoomSpeed=0.1f;
     public Slider rotateSlider;
     public Slider moveSlider;
     public Slider zoomSlider;
@@ -47,7 +47,7 @@ public class GestureControllerSimple : MonoBehaviour, IPointerClickHandler
     private Vector3 defaultPosition;
     private Vector3 defaultRotation;
     private Vector3 lastPosition;
-    private float maxDis = 20;
+    private float maxDis = 500;
     private float minDis = 3;
 
     void Awake()
@@ -60,6 +60,16 @@ public class GestureControllerSimple : MonoBehaviour, IPointerClickHandler
     {
         defaultPosition = transform.localPosition;
         defaultRotation = transform.localRotation.eulerAngles;
+
+        rotateSlider.value = rotateSpeed;
+        moveSlider.value = moveSpeed;
+        zoomSlider.value = zoomSpeed;
+
+        rotateSpeedText.text = rotateSlider.value.ToString();
+        moveSpeedText.text = moveSlider.value.ToString();
+        zoomSpeedText.text = zoomSlider.value.ToString();
+
+
 
         m_SpaceCamTrans = Camera.main.transform;
         Debug.Log("GestureController Start");
