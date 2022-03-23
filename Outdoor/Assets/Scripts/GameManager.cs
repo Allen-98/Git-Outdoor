@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     public GameObject panel;
     public Material summer;
     public Material winter;
-    public Text csbText;
     public GameObject rain;
     public GameObject fog;
     public GameObject snow;
@@ -19,12 +18,12 @@ public class GameManager : MonoBehaviour
     public Material grassGround;
     public GameObject light;
     public LensFlare lf;
+    public AnimationShow aniShow;
 
     // Start is called before the first frame update
     void Start()
     {
         controlling = false;
-        csbText.text = "Rest";
 
     }
 
@@ -69,22 +68,6 @@ public class GameManager : MonoBehaviour
             RenderSettings.skybox = summer;
             ChangeGround();
         }
-
-    }
-
-    public void ControlSwitch()
-    {
-        if (!controlling)
-        {
-            controlling = true;
-            csbText.text = "Moving";
-        }
-        else
-        {
-            controlling = false;
-            csbText.text = "Rest";
-        }
-
 
     }
 
@@ -138,5 +121,11 @@ public class GameManager : MonoBehaviour
             }
         }
     }
+
+    public void ViewerAutoMoving()
+    {
+        aniShow.AutoShow();
+    }
+
 
 }
