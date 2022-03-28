@@ -4,3 +4,6 @@ Cmd: initializeCompiler
 Cmd: disassembleShader
  name=Skybox/Panoramic platform=metal type=23 mask=6 insize=3425 outsize=3369 ok=1
 
+Cmd: shutdown
+
+Quitting shader compiler process
